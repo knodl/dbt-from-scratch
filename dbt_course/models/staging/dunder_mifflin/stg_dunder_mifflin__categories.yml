@@ -1,0 +1,21 @@
+version: 2
+
+models:
+  - name: stg_dunder_mifflin__categories
+    description: ""
+    columns:
+      - name: category_id
+        data_type: number
+        description: "ID of a product category"
+
+      - name: category_name
+        data_type: varchar
+        description: "Name of a product category"
+
+      - name: category_description
+        data_type: varchar
+        description: "Text description of a particular category"
+
+      - name: picture
+        data_type: varchar
+        description: "Link to the image of a category"

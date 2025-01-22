@@ -1,0 +1,53 @@
+version: 2
+
+models:
+  - name: stg_dunder_mifflin__customers
+    description: ""
+    columns:
+      - name: customer_id
+        data_type: number
+        description: ""
+
+      - name: customer_code
+        data_type: varchar
+        description: ""
+
+      - name: company_name
+        data_type: varchar
+        description: ""
+
+      - name: contact_name
+        data_type: varchar
+        description: ""
+
+      - name: contact_title
+        data_type: varchar
+        description: ""
+
+      - name: address
+        data_type: varchar
+        description: ""
+
+      - name: city
+        data_type: varchar
+        description: ""
+
+      - name: region
+        data_type: varchar
+        description: ""
+
+      - name: postal_code
+        data_type: number
+        description: ""
+
+      - name: country
+        data_type: varchar
+        description: ""
+
+      - name: phone
+        data_type: varchar
+        description: ""
+
+      - name: fax
+        data_type: varchar
+        description: ""
